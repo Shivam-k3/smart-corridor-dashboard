@@ -16,12 +16,6 @@ Your project is live at:
 
 **[https://vercel.com/shivam-kumar-s-projects-661919b2/v0-smart-corridor-dashboard](https://vercel.com/shivam-kumar-s-projects-661919b2/v0-smart-corridor-dashboard)**
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/miTDRcDiGI1](https://v0.app/chat/miTDRcDiGI1)**
-
 ## How It Works
 
 1. Create and modify your project using [v0.app](https://v0.app)
