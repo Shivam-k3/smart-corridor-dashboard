@@ -1,5 +1,16 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { BarChart, Bar, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from "recharts"
+import {
+  BarChart,
+  Bar,
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  Cell,
+} from "recharts"
 
 export default function ResearchDashboard() {
   // Section 1: Traffic Density Data
@@ -174,7 +185,7 @@ export default function ResearchDashboard() {
                     />
                     <Bar dataKey="time" name="Travel Time (s)">
                       {corridorPerformanceData.map((entry, index) => (
-                        <Bar key={`cell-${index}`} dataKey="time" fill={entry.color} />
+                        <Cell key={`cell-${index}`} fill={entry.color} />
                       ))}
                     </Bar>
                   </BarChart>
